@@ -1,0 +1,17 @@
+{
+	"scripts": {
+		"clean": "rm -rf dist/*",
+		"build": "webpack --mode production",
+		"build-dev": "webpack -d --mode development"
+	},
+	"dependencies": {
+		"@babel/polyfill": "^7.12.1",
+		"babel-polyfill": "^6.26.0",
+		"webpack": "^5.52.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.15.5",
+		"babel-loader": "^8.2.2",
+		"webpack-cli": "^4.8.0"
+	}
+}
